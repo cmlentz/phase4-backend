@@ -9,7 +9,7 @@ class SalesController < ApplicationController
   private
 
   def sale_params
-    params.permit(:shop_id, :animal_id, :priority)
+    params.permit(:shop_id, :animal_id)
   end
 
   def render_unprocessable_entity_response(exception)
