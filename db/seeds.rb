@@ -14,15 +14,15 @@ puts 'Shops seeded...'
 
 Animal.destroy_all
 
-animal1 = Animal.create(species: "#{Faker::Creature::Animal}")
-animal2 = Animal.create(species: "#{Faker::Creature::Animal}")
-animal3 = Animal.create(species: "#{Faker::Creature::Animal}")
-animal4 = Animal.create(species: "#{Faker::Creature::Animal}")
-animal5 = Animal.create(species: "#{Faker::Creature::Animal}")
-animal6 = Animal.create(species: "#{Faker::Creature::Animal}")
-animal7 = Animal.create(species: "#{Faker::Creature::Animal}")
-animal8 = Animal.create(species: "#{Faker::Creature::Animal}")
-animal9 = Animal.create(species: "#{Faker::Creature::Animal}")
+animal1 = Animal.create(species: "#{Faker::Creature::Animal.name}")
+animal2 = Animal.create(species: "#{Faker::Creature::Animal.name}")
+animal3 = Animal.create(species: "#{Faker::Creature::Animal.name}")
+animal4 = Animal.create(species: "#{Faker::Creature::Animal.name}")
+animal5 = Animal.create(species: "#{Faker::Creature::Animal.name}")
+animal6 = Animal.create(species: "#{Faker::Creature::Animal.name}")
+animal7 = Animal.create(species: "#{Faker::Creature::Animal.name}")
+animal8 = Animal.create(species: "#{Faker::Creature::Animal.name}")
+animal9 = Animal.create(species: "#{Faker::Creature::Animal.name}")
 
 puts 'Animals seeded...'
 
